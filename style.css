@@ -1,51 +1,65 @@
 .dogs {
-  color: blue; 
-  font-weight: bolder;
-  text-decoration: underline;
-  font-style: normal;
-  font-size: 15px;
+    color: blue; 
+    font-weight: bolder;
+    text-decoration: underline;
+    font-style: normal;
+    font-size: 15px;
+  }
+  
+  p {
+    margin-bottom: 40px;
+  }
+  
+  body {
+    background: #eeeeee;
+  }
+  
+  #wrapper {
+    width: 720px;
+    background: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  body {
+    font-family: "Segoe UI";
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 0px;
+  }
+  
+  img {
+    border-radius: 12px;
+  }
+  
+  h2 {
+    border-left: 3px solid blue;
+    padding-left: 5px;
+  }
+  
+  a {
+    color: steelblue;
+  }
+  
+  a:visited {
+    color: darkblue;
+  }
+.cats{
+    color : red;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-style: normal;
+    font-size: 15px;
 }
-
-p {
-  margin-bottom: 40px;
-}
-
-body {
-  background: #eeeeee;
-}
-
-#wrapper {
-  width: 720px;
-  background: white;
-  margin: auto;
-  padding: 10px;
-  border-radius: 10px;
-  border: 1px solid lightgray;
-  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
-}
-
-body {
-  font-family: "Segoe UI";
-}
-
-h1 {
-  text-align: center;
-  margin-top: 0px;
-}
-
-img {
-  border-radius: 12px;
-}
-
-h2 {
-  border-left: 3px solid blue;
-  padding-left: 5px;
-}
-
-a {
-  color: steelblue;
-}
-
-a:visited {
-  color: darkblue;
+.animals{
+    color : orange;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-style: normal;
+    font-size: 15px;   
 }
